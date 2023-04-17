@@ -30,7 +30,7 @@ def submit_request(request,id):
         send_mail(
             "Property Listing Inquiry",
             f"There is has been inquiry for {listing}.",
-            "prasadtest67@gmail.com",
+            "Your email from which you need to send email",
             [realtor_email],
             fail_silently=False,
         )
